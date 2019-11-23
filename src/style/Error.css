@@ -1,0 +1,21 @@
+.error {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 300px;
+    padding: 12px;
+    line-height: 1.6;
+    border-radius: 4px;
+    background-color: rgba(245,39,39,.7);
+    color: white;
+    box-shadow: 0 0 3px rgba(245,39,39,.4);
+}
+.error-close {
+    position: absolute;
+    top: 2px;
+    right: 6px;
+    cursor: pointer;
+}
+.error-close:hover {
+    opacity: 0.8;
+}

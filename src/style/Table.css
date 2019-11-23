@@ -1,0 +1,21 @@
+.table {
+    width: 80%;
+    margin: 0 auto;
+}
+table {
+    width: 100%;
+}
+.table-header {
+    background-color: rgb(242, 240, 236);
+}
+tr {
+    display: flex;
+    border-bottom: 1px solid rgb(210,210,210);
+    line-height: 3.2;
+}
+tr:not(:first-child):hover {
+    background-color: #e6f7ff;
+}
+th, td {
+    flex: 1 1;
+}
